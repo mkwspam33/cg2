@@ -8,9 +8,11 @@
         <name>Insert Megaphone Message Event</name>
         <order>100</order>
         <script><![CDATA[function insertMegaphoneMessage() {
+	//CG2
+	
 	if(event.parm1.nil()) {
 		gs.warn("Empty megaphone broadcast message inserted");
-	}
+	} 
 	else {
 		var mega = new MegaphoneBroadcastInsert();
 		mega.fromEvent(event.parm1);
@@ -25,7 +27,7 @@ insertMegaphoneMessage();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path/>
         <sys_id>c5affa2147200200151119fbac9a717b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Insert Megaphone Message Event</sys_name>
         <sys_overrides/>
         <sys_package display_value="C Global2" source="5f2d37a777720010ca3ab5b268106122">5f2d37a777720010ca3ab5b268106122</sys_package>
@@ -33,7 +35,7 @@ insertMegaphoneMessage();]]></script>
         <sys_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</sys_scope>
         <sys_update_name>sysevent_script_action_c5affa2147200200151119fbac9a717b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 19:22:38</sys_updated_on>
+        <sys_updated_on>2020-02-14 22:25:06</sys_updated_on>
     </sysevent_script_action>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
