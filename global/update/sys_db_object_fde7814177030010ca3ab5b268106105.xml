@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <claim/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>XT1</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_xt1</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-16 21:55:28</sys_created_on>
+        <sys_id>fde7814177030010ca3ab5b268106105</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>XT1</sys_name>
+        <sys_package display_value="C Global2" source="5f2d37a777720010ca3ab5b268106122">5f2d37a777720010ca3ab5b268106122</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</sys_scope>
+        <sys_update_name>sys_db_object_fde7814177030010ca3ab5b268106105</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-16 22:18:40</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="c_global1_user" name="c_global1_user">4e446b2b77320010ca3ab5b2681061bf</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705015049d0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_fde7814177030010ca3ab5b268106105</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global2</previous_claim_name>
+        <previous_claim_scope>5f2d37a777720010ca3ab5b268106122</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-16 22:18:39</sys_created_on>
+        <sys_id>ce5dc94577030010ca3ab5b268106130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-16 22:18:39</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>170501504760000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_fde7814177030010ca3ab5b268106105</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global1</previous_claim_name>
+        <previous_claim_scope>b1446b2b77320010ca3ab5b268106120</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-16 22:18:39</sys_created_on>
+        <sys_id>825dc94577030010ca3ab5b268106131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-16 22:18:39</sys_updated_on>
+    </sys_claim>
+</record_update>
