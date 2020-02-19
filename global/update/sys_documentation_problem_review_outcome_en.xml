@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="review_outcome" label="Major problem review notes" language="en" table="problem">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <claim/>
+            <element>review_outcome</element>
+            <help/>
+            <hint>Document review results and lessons learned</hint>
+            <label>Major problem review notes</label>
+            <language>en</language>
+            <name>problem</name>
+            <plural>Major problem review notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:52:57</sys_created_on>
+            <sys_id>a2044dd7fc6600100ed875a20f0786fe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Major problem review notes</sys_name>
+            <sys_package display_value="C Global2" source="5f2d37a777720010ca3ab5b268106122">5f2d37a777720010ca3ab5b268106122</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</sys_scope>
+            <sys_update_name>sys_documentation_problem_review_outcome_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-19 20:13:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f1556e60000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_review_outcome_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global2</previous_claim_name>
+        <previous_claim_scope>5f2d37a777720010ca3ab5b268106122</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:18</sys_created_on>
+        <sys_id>0b6d0c8a77470010ca3ab5b26810619c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:18</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f0c02110000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_review_outcome_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global1</previous_claim_name>
+        <previous_claim_scope>b1446b2b77320010ca3ab5b268106120</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:18</sys_created_on>
+        <sys_id>8f6d0c8a77470010ca3ab5b26810619c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:18</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f0c02080000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_review_outcome_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.best_practice.problem.ja</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.problem.ja</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:18</sys_created_on>
+        <sys_id>cb6d0c8a77470010ca3ab5b26810619c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:18</sys_updated_on>
+    </sys_claim>
+</record_update>

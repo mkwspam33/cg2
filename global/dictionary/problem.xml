@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" defaultsort="-1" extends="task" label="Problem" max_length="40" name="problem" sizeclass="24" text_index="true" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="1" value="software"/>
+                <element inactive_on_update="false" label="Hardware" sequence="2" value="hardware"/>
+                <element inactive_on_update="false" label="Network" sequence="3" value="network"/>
+                <element inactive_on_update="false" label="Database" sequence="4" value="database"/>
+            </choice>
+        </element>
+        <element label="Cause notes" max_length="65536" name="cause_notes" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirmed" max_length="40" name="confirmed_at" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,ignore_filter_on_new=true" label="Confirmed by" max_length="32" name="confirmed_by" read_only="true" reference="sys_user" reference_floats="true" type="reference"/>
+        <element attributes="encode_utf8=false" hint="Which problem is this a duplicate of" label="Duplicate of" max_length="32" name="duplicate_of" reference="problem" reference_floats="true" reference_qual="javascript:'sys_id!=' + current.sys_id + '^duplicate_ofISEMPTY^EQ'" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="encode_utf8=false,ignore_filter_on_new=true" hint="The Task that first identified this Problem" label="First reported by" max_length="32" name="first_reported_by_task" reference="task" reference_floats="true" reference_qual="javascript:'sys_id!=' + current.sys_id + '^active=true^EQ';" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Fix communicated" max_length="40" name="fix_communicated_at" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,ignore_filter_on_new=true" label="Fix communicated by" max_length="32" name="fix_communicated_by" read_only="true" reference="sys_user" reference_floats="true" type="reference"/>
+        <element label="Fix notes" max_length="65536" name="fix_notes" type="html"/>
+        <element hint="Root cause has been determined and there is a workaround but there is NO permanent fix" label="Known error" max_length="40" name="known_error" type="boolean"/>
+        <element hint="If checked the Review outcome field will become visible and should be completed" label="Major problem" max_length="40" name="major_problem" type="boolean"/>
+        <element choice="1" choice_field="state" choice_table="problem" default="1" label="Problem state" max_length="40" name="problem_state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="101"/>
+                <element inactive_on_update="false" label="Assess" sequence="2" value="102"/>
+                <element inactive_on_update="false" label="Root Cause Analysis" sequence="3" value="103"/>
+                <element inactive_on_update="false" label="Fix in Progress" sequence="4" value="104"/>
+                <element inactive_on_update="false" label="Resolved" sequence="6" value="106"/>
+                <element inactive_on_update="false" label="Closed" sequence="7" value="107"/>
+            </choice>
+        </element>
+        <element default="0" hint="Number of Incidents related to this Problem" label="Related Incidents" max_length="40" name="related_incidents" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Last reopened at" max_length="40" name="reopened_at" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,ignore_filter_on_new=true" label="Last reopened by" max_length="32" name="reopened_by" read_only="true" reference="sys_user" reference_floats="true" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="0" hint="Number of times Problem state has changed from Resolved or Closed to another state" label="Reopen count" max_length="40" name="reopen_count" read_only="true" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" choice="1" label="Resolution code" max_length="40" name="resolution_code" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fix Applied" sequence="1" value="fix_applied"/>
+                <element inactive_on_update="false" label="Risk Accepted" sequence="2" value="risk_accepted"/>
+                <element inactive_on_update="false" label="Canceled" sequence="3" value="canceled"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="4" value="duplicate"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Resolved" max_length="40" name="resolved_at" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,ignore_filter_on_new=true" label="Resolved by" max_length="32" name="resolved_by" read_only="true" reference="sys_user" reference_floats="true" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" hint="Document review results and lessons learned" label="Major problem review notes" max_length="4000" name="review_outcome" type="string"/>
+        <element attributes="encode_utf8=false" label="Change request" max_length="32" name="rfc" reference="change_request" reference_floats="true" type="reference"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice">
+            <choice>
+                <element dependent_value="hardware" inactive_on_update="false" label="CPU" value="cpu"/>
+                <element dependent_value="database" inactive_on_update="false" label="DB2" value="db2"/>
+                <element dependent_value="network" inactive_on_update="false" label="DHCP" value="dhcp"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Disk" value="disk"/>
+                <element dependent_value="network" inactive_on_update="false" label="DNS" value="dns"/>
+                <element dependent_value="software" inactive_on_update="false" label="Email" value="email"/>
+                <element dependent_value="network" inactive_on_update="false" label="IP Address" value="ip address"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Keyboard" value="keyboard"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Memory" value="memory"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Monitor" value="monitor"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Mouse" value="mouse"/>
+                <element dependent_value="database" inactive_on_update="false" label="MS SQL Server" value="sql server"/>
+                <element dependent_value="software" inactive_on_update="false" label="Operating System" value="os"/>
+                <element dependent_value="database" inactive_on_update="false" label="Oracle" value="oracle"/>
+                <element dependent_value="network" inactive_on_update="false" label="VPN" value="vpn"/>
+                <element dependent_value="network" inactive_on_update="false" label="Wireless" value="wireless"/>
+            </choice>
+        </element>
+        <element label="PrbSTR1" max_length="40" name="u_prbstr1" type="string"/>
+        <element label="Workaround" max_length="65536" name="workaround" type="html"/>
+        <element label="Workaround applied" max_length="40" name="workaround_applied" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Workaround communicated" max_length="40" name="workaround_communicated_at" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false,ignore_filter_on_new=true" label="Workaround communicated by" max_length="32" name="workaround_communicated_by" read_only="true" reference="sys_user" reference_floats="true" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="workaround_applied" label="Workaround applied" language="en" table="problem">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <claim/>
+            <element>workaround_applied</element>
+            <help/>
+            <hint/>
+            <label>Workaround applied</label>
+            <language>en</language>
+            <name>problem</name>
+            <plural>Workaround applied</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:54:08</sys_created_on>
+            <sys_id>33444ddbfc6600100ed875a20f0786fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Workaround applied</sys_name>
+            <sys_package display_value="C Global2" source="5f2d37a777720010ca3ab5b268106122">5f2d37a777720010ca3ab5b268106122</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</sys_scope>
+            <sys_update_name>sys_documentation_problem_workaround_applied_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-19 20:13:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f15185e0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_workaround_applied_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global2</previous_claim_name>
+        <previous_claim_scope>5f2d37a777720010ca3ab5b268106122</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:02</sys_created_on>
+        <sys_id>5b5d088a77470010ca3ab5b268106122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:02</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f0ba3ae0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_workaround_applied_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global1</previous_claim_name>
+        <previous_claim_scope>b1446b2b77320010ca3ab5b268106120</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:02</sys_created_on>
+        <sys_id>df5d088a77470010ca3ab5b268106122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:02</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f0ba3970000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_workaround_applied_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.best_practice.problem.ma</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.problem.ma</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:02</sys_created_on>
+        <sys_id>1f5d088a77470010ca3ab5b268106122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:02</sys_updated_on>
+    </sys_claim>
+</record_update>

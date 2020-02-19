@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="problem" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73448ddbfc6600100ed875a20f078615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-01-30 00:54:08</sys_updated_on>
+            <value>software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3448ddbfc6600100ed875a20f078615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-01-30 00:54:08</sys_updated_on>
+            <value>hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3448ddbfc6600100ed875a20f078615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-01-30 00:54:08</sys_updated_on>
+            <value>network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37448ddbfc6600100ed875a20f078615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2020-01-30 00:54:08</sys_updated_on>
+            <value>database</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <claim/>
+            <element>category</element>
+            <name>problem</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2020-01-30 00:54:08</sys_created_on>
+            <sys_id>264c044a77470010ca3ab5b2681061cf</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="C Global2" source="5f2d37a777720010ca3ab5b268106122">5f2d37a777720010ca3ab5b268106122</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</sys_scope>
+            <sys_update_name>sys_choice_problem_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-19 20:13:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f15626e0000001</claim_timestamp>
+        <metadata_update_name>sys_choice_problem_category</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global2</previous_claim_name>
+        <previous_claim_scope>5f2d37a777720010ca3ab5b268106122</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:21</sys_created_on>
+        <sys_id>b36d4c8a77470010ca3ab5b268106199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:21</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f0c0e280000001</claim_timestamp>
+        <metadata_update_name>sys_choice_problem_category</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>C Global1</previous_claim_name>
+        <previous_claim_scope>b1446b2b77320010ca3ab5b268106120</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:21</sys_created_on>
+        <sys_id>3b6d4c8a77470010ca3ab5b268106199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:21</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="C Global2">5f2d37a777720010ca3ab5b268106122</claim_owner_scope>
+        <claim_timestamp>1705f0c0e1f0000001</claim_timestamp>
+        <metadata_update_name>sys_choice_problem_category</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.best_practice.problem.ma</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.problem.ma</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 20:13:21</sys_created_on>
+        <sys_id>776d4c8a77470010ca3ab5b268106199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 20:13:21</sys_updated_on>
+    </sys_claim>
+</record_update>
