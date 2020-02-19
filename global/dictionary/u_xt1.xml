@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="XT1" max_length="40" name="u_xt1" type="collection">
+    <element label="XT1" max_length="40" name="u_xt1" sizeclass="0" type="collection">
         <element label="STR1" max_length="40" name="u_str1" type="string"/>
-        <element label="STR2" max_length="40" name="u_str2" type="string"/>
+        <element label="STR2" max_length="200" name="u_str2" type="string"/>
     </element>
 </database>
