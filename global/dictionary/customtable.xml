@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="CustomTable" max_length="40" name="customtable" type="collection">
+        <element label="Int1" max_length="40" name="int1" type="integer"/>
+        <element label="Str1" max_length="40" name="str1" type="string"/>
+        <element label="Str2" max_length="40" name="str2" type="string"/>
+        <element label="CG2Str" max_length="40" name="u_cg2str" type="string"/>
+    </element>
+</database>
